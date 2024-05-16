@@ -12,8 +12,8 @@ import ThemeSwitch from '@/components/theme-switch'
 import { TopNav } from '@/components/top-nav'
 import { UserNav } from '@/components/user-nav'
 import { Layout, LayoutBody, LayoutHeader } from '@/components/custom/layout'
-import { RecentSales } from './components/recent-sales'
-import { Overview } from './components/overview'
+import { Overview } from '../dashboard/components/overview'
+import { RecentSales } from '../dashboard/components/recent-sales'
 
 export default function Dashboard() {
     return (
