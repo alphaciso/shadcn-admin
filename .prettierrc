@@ -1,12 +1,25 @@
 {
   "arrowParens": "always",
   "semi": false,
-  "tabWidth": 2,
+  "tabWidth": 4,
   "printWidth": 80,
   "singleQuote": true,
   "jsxSingleQuote": true,
   "trailingComma": "es5",
   "bracketSpacing": true,
+  "width": 80,
   "endOfLine": "lf",
+  "jsxBracketSameLine": true,
+  "BracketSameLine": true,
+  "tailwindcss.config": "./tailwind.config.js",
+  "tailwindcss.includeLanguages": ["html", "javascript", "javascriptreact", "typescript", "typescriptreact"],
+  "tailwindcss.scanDevDependencies": true,
+  "tailwindcss.validate": true,
+  "tailwindcss.lint": {
+    "include": ["src/**/*.{js,jsx,ts,tsx}"],
+    "exclude": ["node_modules", ".cache", "public"]
+  },
+  "useTabs": true,
+  "singleAttributePerLine": false,
   "plugins": ["prettier-plugin-tailwindcss"]
 }
