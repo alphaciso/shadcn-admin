@@ -12,10 +12,10 @@ import ThemeSwitch from '@/components/theme-switch'
 // import { TopNav } from '@/components/top-nav'
 import { UserNav } from '@/components/user-nav'
 import { Layout, LayoutBody, LayoutHeader } from '@/components/custom/layout'
-import { RecentSales } from './components/recent-sales'
-import { Overview } from './components/overview'
+import { RecentSales } from '../../dashboard/components/recent-sales'
+import { Overview } from '../../dashboard/components/overview'
 
-export default function Dashboard() {
+export default function Clients() {
 	return (
 		<Layout>
 			{/* ===== Top Heading ===== */}
@@ -32,7 +32,7 @@ export default function Dashboard() {
 			<LayoutBody className='space-y-4'>
 				<div className='flex items-center justify-between space-y-2'>
 					<h1 className='text-2xl font-bold tracking-tight md:text-3xl'>
-						Dashboard
+						Clients
 					</h1>
 					<div className='flex items-center space-x-2'>
 						<Button>Download</Button>
