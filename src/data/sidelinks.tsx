@@ -140,7 +140,6 @@ export const sidelinks: SideLink[] = [
 	},
 	{
 		title: 'Not Working',
-		label: '10',
 		href: '/requests',
 		icon: <IconRouteAltLeft size={18} />,
 		sub: [
